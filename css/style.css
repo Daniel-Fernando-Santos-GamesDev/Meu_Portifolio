@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: solid black ;
+}
+
+header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 162px;
+    border: thick double blue;
+    display: block;   
+}
+
+
+.logo{
+    text-align: left;
+    border: solid black;
+    width: 140px;        
+}
+
+.titulo01 {
+    border: solid black;
+    height: 150px;
+    text-align:center;
+    max-width: 1050px;
+    margin-left: 150px;
+    margin-top: -160px;
+    }
+
+nav {
+    border: thick double green ;
+}
+
+main {
+    border: thick double red ;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    border: thick double greenyellow;
+}
