@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border: solid black ;
+    /*background-color: black;*/
+    /*color: white;*/
 }
 
 header {
@@ -29,15 +31,33 @@ header {
 
 .titulo01 {
     border: solid black;
-    height: 150px;
+    height: 105px;
     text-align:center;
     max-width: 1050px;
     margin-left: 150px;
     margin-top: -160px;
+    padding-top: 50px;
     }
 
 nav {
     border: thick double green ;
+    padding: 0px;   
+}
+
+nav a {
+    text-decoration: none; /*decoraçao - nada*/
+    /*color: white; /*cor do texto*/
+    font-size: 1em; /*tamanho da letra - 1x normal*/
+    padding: 10px; /*espaço interno*/
+    transition-duration: 0.5s; /*deley*/
+    margin-right: 10px; /*espaço externo*/
+    line-height: 40px; /*espaçamentos da linhas*/
+    font-weight: bold; /*negrito*/
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
 }
 
 main {
@@ -45,6 +65,11 @@ main {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+main p {
+    text-align: justify;
+    padding: 10px;
 }
 
 footer{
