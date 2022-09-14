@@ -47,8 +47,15 @@ links internos
 download
     <a href="...arq ou zip" download="...arq ou zip" type="application/pdf ou zip">...</a>
 
-
+-------------------------------------------------------------------------------
 
 cont+shift+p (abb)       comando para envelopar
 tab                     tabelar
 shift+tab               voltar tabelar
+
+--------------------------------------------------------------------------------
+
+comandos basicos CSS
+
+position: absolute          ***para pode mudar a possiçao da div e da box
+transform: translate(x,y)   ***consigo mudar o ponto de origem da "div" ou box
