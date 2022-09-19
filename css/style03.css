@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*----- Font texto extra interno-----*/
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../Font/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+    tipos de format()
+    - opentype = .otf
+    - truetype = .ttf
+    - embedded-opentype
+    - truetype-aat
+    - svg    
+    */
+}
+
+
+/*----- Conf Gerais-----*/
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+/*------------------------*/
+html, body {
+    min-height: 100vh;
+    background-color: dimgray;
+}
+
+/*------------------------*/
+
+div#imgtop {
+    background-image: url(../img/City_Background/Ruined\ City\ Background\ Preview.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+header {
+    max-width: 1200px;
+    min-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+    text-align: center; 
+}
+
+header > div {
+    display: inline-block;
+    
+}
+
+header > div#imglogo {
+    background-image: url(../img/Tio\ Dan\ logo.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 140px;
+}
+
+
+
+header > div > h1 {
+    /*padding-top: 50px;*/
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    font-family: 'Press Start 2P', serif;
+}
+
+header > div > p {
+    padding-bottom: 50px;
+}
+
+/*------------------------*/
+nav {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+/*------------------------*/
+main {
+    max-width: 1200px;
+    min-height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+    text-align: center;
+
+}
+
+main > p {
+    text-align: justify;
+    padding: 10px;
+}
+
+/*------------------------*/
+footer {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

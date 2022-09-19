@@ -132,6 +132,13 @@ nav a {
     /*line-height: 10px;*/
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+
+}
+
 main {
     height: 73vh;
     max-width: 1200px;
