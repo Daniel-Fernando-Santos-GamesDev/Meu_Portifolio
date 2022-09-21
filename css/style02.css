@@ -25,7 +25,8 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.imgtop {
@@ -35,11 +36,11 @@ div.imgtop {
 
 div#imgtop {
     /*height: 100vh;*/
-    background-image: url(../img/City_Background/Ruined\ City\ Background\ Preview.png);
+    background-image: url(../img/City_Background/Ruined_City_Background_Preview_160x280.png);
     background-repeat: repeat-x;
     background-size: 160px;
-    /*background-size: contain;*/
-    /*min-width: fit-content;*/
+    background-size: contain;
+    min-width: fit-content;
 }
 
 header {
@@ -50,18 +51,20 @@ header {
     margin-right: auto;
     padding-top: 5px;
     padding-right: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 5px;
     /*border: 1px solid black;*/
     background-color: rgba(255, 255, 255, 0.067);
+    text-align: center; 
 }
 
 header > div {
     display: inline-block;
+    vertical-align: top;
 }
 
 
-header div.logo {
+div.logo {
     background-image: url(../img/Tio\ Dan\ logo.png);
     background-repeat: no-repeat;
     /*background-size: 10%;*/
@@ -73,10 +76,10 @@ header div.logo {
 
 div.titulo01 {  
     min-height: 160px; 
-    max-width: 1060px;
-    margin-top: -150px;
+    max-width: 1060px;    
+    /*margin-top: -150px;*/
     /*margin-bottom: 10px;*/
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     /*position: absolute;
     top: 0px;
     left: 50%;
@@ -104,7 +107,7 @@ header p {
 
 div.imgnav {
     min-height: 40px;
-    /*min-width: 372px*/;
+    /*min-width: 372px;*/
     background-color: black;
     
 }
@@ -116,7 +119,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     /*border: 1px solid black;*/
-    background-color: rgba(255, 255, 255, 0.085);
+    background-color: cadetblue;
     text-align: center;
     padding: 10px 5px;
 }
@@ -142,15 +145,16 @@ nav a:hover {
 main {
     height: 73vh;
     max-width: 1200px;
-    min-width: 370px;
+    /*min-width: 370px;*/
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    padding: 10px 5px;
+    /*border: 1px solid black;*/
     background-color: rgba(255, 255, 255, 0.153);
 }
 
 footer {
     height: 50px;
-    min-width: 372px;
+    /*min-width: 372px;*/
     background-color: black;
 }

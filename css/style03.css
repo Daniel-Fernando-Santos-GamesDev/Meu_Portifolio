@@ -29,12 +29,13 @@
 html, body {
     min-height: 100vh;
     background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*------------------------*/
 
 div#imgtop {
-    background-image: url(../img/City_Background/Ruined\ City\ Background\ Preview.png);
+    background-image: url(../img/City_Background/Ruined_City_Background_Preview_160x280.png);
     background-repeat: repeat-x;
     background-size: contain;
 }
@@ -51,20 +52,18 @@ header {
 
 header > div {
     display: inline-block;
-    
+    vertical-align: top;    
 }
 
-header > div#imglogo {
+header>div#imglogo {
     background-image: url(../img/Tio\ Dan\ logo.png);
     background-repeat: no-repeat;
     height: 150px;
     width: 140px;
 }
 
-
-
 header > div > h1 {
-    /*padding-top: 50px;*/
+    padding-top: 50px;
     /*text-transform: uppercase;*/
     font-variant: small-caps;
     font-family: 'Press Start 2P', serif;
